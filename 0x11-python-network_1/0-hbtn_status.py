@@ -15,4 +15,3 @@ except urllib.error.HTTPError as e:
     print("Error fetching the URL:", e)
 except urllib.error.URLError as e:
     print("URL error:", e)
-
